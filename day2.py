@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 
-from modulefinder import test
-from re import search
 import sys
-from tracemalloc import start
 
 def clean_data(filename):
     """Read the single-line input and split into range strings."""
